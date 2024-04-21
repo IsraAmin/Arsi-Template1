@@ -1,0 +1,96 @@
+body{
+  font-family: "Work Sans", sans-serif;
+  }
+.container1{
+    padding-top: 15%;
+    background-image: url("https://elzerowebschool.github.io/HTML_And_CSS_Template_One/images/landing.jpg");    
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 64px);
+    position: relative;
+    font-family: "Work Sans", sans-serif;
+  }
+  .container.h1{
+    color: #10cab7;
+  }
+  .container-fluid{
+    box-shadow: 0px 10px 10px #f6f6f6;
+  }
+  .bg-light{
+    background-color: #f8f9fa !important;
+    background-size: 800px;
+}
+.full{
+  background-color:#f6f6f6 ;
+  padding: 40px;
+}
+.caption{
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    top: 30%;
+text-align: center;
+}
+.content{
+  padding: 50px;
+}
+.container .h1{
+
+
+    font-size: 1.17em;
+    font-weight: bold;
+    padding-bottom: 21px;
+  }
+  .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+         margin-top: 30px; 
+        margin-bottom: .5rem;
+
+        line-height: 1.2;
+  }
+  .container-cs{
+    background-color: #f6f6f6;
+  }
+  .card{
+    --bs-card-border-color: none;
+  }
+  .hr{
+    width: 50%;
+    display: inline-block;
+    border-color:#10cab7 ;
+  }
+  .date{
+    background-color: rgb(25, 217, 127);
+   }
+
+   .Contact{
+    background-color: #f6f6f6 ;
+    padding-top: 80px;
+    border-bottom: 20px;
+   }
+ 
+   .one, .three {
+    width: 35px;
+    height: 2px;
+    background-color: black;
+    margin: 6px 0;
+   }
+.two{
+  width: 25px;
+  height: 2px;
+  background-color: black;
+  margin: 6px 0;
+  justify-content: flex-end;
+ }
+ .icon2.div:hover{
+  width: 35px;
+  height: 2px;
+  background-color: black;
+  margin: 6px 0;
+ }
+ @media (max-width: 991px) {
+ .about .about-text {
+      flex-direction: column;
+      text-align: center;}}
+ 
+
+   
